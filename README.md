@@ -1,4 +1,4 @@
-MyModule
+partial_config
 ========
 <!--
 The first paragraph of this file should be kept short as it will be used as the
@@ -14,7 +14,7 @@ getting started. More detailed documentation should be moved to a GitHub wiki
 page; for example: https://github.com/backdrop-contrib/setup/wiki/Documentation.
 -->
 
-MyModule enables you to...
+partial_config enables you to...
 
 
 Requirements
@@ -40,7 +40,7 @@ necessary.
   https://docs.backdropcms.org/documentation/extend-with-modules.
 
 - Visit the configuration page under Administration > Configuration > System >
-  MyModule (admin/config/system/mymodule) and enter the required information.
+  partial_config (admin/config/system/partial_config) and enter the required information.
 
 - Additional steps go here...
 
@@ -54,7 +54,7 @@ if not used).
 -->
 
 Additional documentation is located in the Wiki:
-https://github.com/backdrop-contrib/mymodule/wiki/Documentation.
+https://github.com/backdrop-contrib/partial_config/wiki/Documentation.
 
 
 Issues
@@ -64,7 +64,7 @@ Link to the repo's issue queue.
 -->
 
 Bugs and Feature Requests should be reported in the Issue Queue:
-https://github.com/backdrop-contrib/mymodule/issues.
+https://github.com/backdrop-contrib/partial_config/issues.
 
 
 Current Maintainers

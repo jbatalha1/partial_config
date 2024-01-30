@@ -1,0 +1,24 @@
+<?php
+/**
+ * @file
+ * A short description of this module.
+ */
+
+module_load_include('inc', 'partial_config', 'partial_config.admin');
+module_load_include('inc', 'partial_config', 'partial_config.routes');
+module_load_include('inc', 'partial_config', 'partial_config.form.type.export');
+
+
+/**
+ * Implements hook_config_info().
+ */
+function partial_config_config_info() {
+  return array(
+    'partial_config.settings' => array(
+      'label' => t('partial_config settings'),
+      'group' => t('Configuration'),
+    ),
+  );
+}
+
+

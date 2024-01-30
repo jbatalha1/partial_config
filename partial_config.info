@@ -1,0 +1,24 @@
+type = module
+name = Partial Config
+description = A module to enhance Backdrop's configuration management system.
+backdrop = 1.x
+
+; Link to the module's configuration page.
+configure = admin/config/development/configuration/partial_config_admin
+
+; Add custom CSS & JS files.
+stylesheets[all][] = css/partial_config.css
+scripts[] = js/partial_config.js
+
+; List any dependencies here.
+dependencies[] = config
+
+package = Development
+
+
+; Find suggested packages and tags at: https://docs.backdropcms.org/documentation/module-packages-and-tags
+
+tags[] = Administration
+tags[] = Development
+tags[] = Site Architecture
+tags[] = System
